@@ -9,12 +9,16 @@ Switch> show version
 
 
 ## Habilitar la VLAN1 del Switch
+
 Niveles de acceso requeridos
+
 ```cli
 Switch> enable
 Switch# configure terminal
 ```
+
 Establecer una IP y encender la interfaz
+
 ```cli
 Switch(config)# interface vlan1
 Switch(config-if)# ip address "cualquier ip valida" "una marcara de red para la ip"
@@ -22,7 +26,9 @@ Switch(config-if)# ip address 192.168.0.40 255.255.255.0
 Switch(config-if)# no shutdown
 ```
 ### Espesificar version y fuente de la actualizacion
-desde el modo "enable"
+
+Desde el modo **enable**
+
 ```cli
 Switch# copy tftp: flash:
 ```
