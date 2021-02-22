@@ -2,7 +2,10 @@
 
 ## Actualizar switch
 
-Verificar version
+### **nombre del archivo de actualizacion** version 15 del sistema operativo
+> c2960-lanbasek9-mz.150-2.SE4.bin
+
+## Verificar version
 ```cli
 Switch> show version
 ```
