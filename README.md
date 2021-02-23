@@ -1,13 +1,17 @@
 # Redes I 
 
 ## Actualizar switch
+![Topologia](img/topologia.png)
 
 ### Nombre del archivo de actualizacion version 15 del sistema operativo
 > c2960-lanbasek9-mz.150-2.SE4.bin
 
 ## Tener en cuenta
-1. deben establecer una IP para el servidor 
+1. Deben establecer una IP para el servidor 
 
+![Configuracion del servidor](img/server.png)
+
+![Establecer una IP al servidor](img/server_ip.png)
 ## Verificar version
 ```cli
 Switch> show version
