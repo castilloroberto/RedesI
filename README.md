@@ -12,6 +12,9 @@
 ![Configuracion del servidor](img/server.png)
 
 ![Establecer una IP al servidor](img/server_ip.png)
+
+## Nos movemos a el CLI del Switch
+![switch](img/switch.png)
 ## Verificar version
 ```cli
 Switch> show version
