@@ -156,5 +156,6 @@ si tenemos acceso a el modo
 ## Ver estado e informacion basica de los puertos de un switch
 
 ```cisco
-S1(config)# show ip interface brief
+S1# show ip interface brief
 ```
+![show ip interface brief](img/informacion_switch.png)
