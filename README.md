@@ -1,5 +1,7 @@
 # Redes I 
-
+## Indice
+* [Actualizar Switch](#actualizar-switch)
+* [Desabilitar Busqueda DNS](#desabilitar-busqueda-dns)
 ## Actualizar switch
 ![Topologia](img/topologia.png)
 
@@ -87,6 +89,8 @@ Switch# reload
 ```cli
 Switch> show version
 ```
+## Desabilitar Busqueda DNS
+
 
 
 
