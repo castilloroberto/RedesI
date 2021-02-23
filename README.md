@@ -89,6 +89,7 @@ Switch# reload
 ```cli
 Switch> show version
 ```
+**[⬆ Volver al Indice](#indice)**
 ## Desabilitar Busqueda DNS
 
 
