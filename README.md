@@ -7,6 +7,39 @@
 * [Cancelar Operacion Cuando Ingresamos un Comando Incorrecto](#cancelar-operacion-comando-incorceto)
 * [Desabilitar Busqueda DNS](#desabilitar-busqueda-dns)
 * []()
+
+## Mostrar Informacion de IP Router
+```cli
+R1# show ip interface brief
+R1# show ipv6 interface brief
+```
+| Interface |  IP-Address (IP)  | OK? | Method | Status | Protocol |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| FastEthernet 0/0 | 192.168.0.1 |yes|Manual| up | up |
+| FastEthernet 0/1 | unassigned |yes|Manual| Down | Down |
+| Vlan1 | unassigned |yes|unset| Down | Down |
+
+
+
+
+## Mostrar Tabla ARP en Windows
+```bash
+arp -a
+```
+| Internet Address (IP) | Physical Address (MAC) | Type |
+| :---: | :---: | :---: |
+| 192.168.0.1 | f8-1d-0f-eb-ec-92 | dynamic |
+| 192.168.0.10 | 01-00-5e-00-00-fb | dynamic |
+| 192.168.0.255 | ff-ff-ff-ff-ff-ff | static |
+
+la direccion **192.168.0.255** es una direccion de difucion o **Broadcast**.
+
+Asi mismo la MAC **ff-ff-ff-ff-ff-ff** indica a un Switch que envie una trama a todos los puertos menos al remitente.
+## Mostrar Tabla ARP de Routers
+```bash
+arp -a
+```
+
 ## Actualizar switch
 ![Topologia](img/topologia.png)
 
